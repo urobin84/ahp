@@ -12,6 +12,8 @@ import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager.widget.PagerAdapter
 import com.mqr.loginform.R
 import com.mqr.loginform.ui.TimeOffAFragment
+import com.mqr.loginform.ui.TimeOffDFragment
+import com.mqr.loginform.ui.TimeOffTFragment
 import kotlinx.android.synthetic.main.activity_timeoff_menu.*
 
 class TimeOffActivity: AppCompatActivity()  {

@@ -9,6 +9,6 @@
         android:layout_height="wrap_content"
         android:text="Detail Time Off Delegation"
         android:layout_gravity="center"
-        android:gravity="center"
+        android:gravity="center"/>
 
 </LinearLayout>

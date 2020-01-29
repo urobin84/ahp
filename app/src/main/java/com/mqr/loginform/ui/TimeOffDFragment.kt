@@ -8,9 +8,11 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.mqr.loginform.R
 import com.mqr.loginform.base.AllTimeOffAdapter
+import com.mqr.loginform.base.DelegationTimeOffAdapter
 import com.mqr.loginform.data.AllTimeOffData
 import com.mqr.loginform.data.DelegationTimeOffData
 import kotlinx.android.synthetic.main.fragment_timeoff_all.*
+import kotlinx.android.synthetic.main.fragment_timeoff_delegation.*
 
 class TimeOffDFragment: Fragment(){
     override fun onCreateView(
