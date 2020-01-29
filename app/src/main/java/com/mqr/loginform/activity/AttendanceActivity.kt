@@ -4,7 +4,11 @@ import android.os.Bundle
 import android.os.PersistableBundle
 import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.mqr.loginform.R
+import com.mqr.loginform.base.AttendanceAdapter
+import com.mqr.loginform.data.AttendanceData
+import kotlinx.android.synthetic.main.activity_attendance_menu.*
 
 class AttendanceActivity: AppCompatActivity() {
 
@@ -19,8 +23,11 @@ class AttendanceActivity: AppCompatActivity() {
         //set back button
         actionbar.setDisplayHomeAsUpEnabled(true)
         actionbar.setDisplayHomeAsUpEnabled(true)
-//        getSupportActionBar()?.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
-//        getSupportActionBar()?.setCustomView(R.layout.abs_layout);
+
+        val OnLeaveCalendaList = AttendanceData().getAttendanceList()
+
+        rvAttendance.layoutManager = LinearLayoutManager(this)
+        rvAttendance.adapter = AttendanceAdapter(OnLeaveCalendaList)
     }
 
     override fun onSupportNavigateUp(): Boolean {

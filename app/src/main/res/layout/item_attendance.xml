@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:weightSum="10"
+        android:layout_marginVertical="8dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dateAttendance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:paddingHorizontal="16dp"
+                android:layout_marginHorizontal="16dp"
+                android:background="@drawable/btn_custom">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="3dp"
+                    android:text="Day Off"
+                    android:textSize="9dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/checkinAttendance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="-"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/checkoutAttendance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="-"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/expandableAttendance"
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgBtnExpandAttendance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_right"
+                android:layout_gravity="center"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.4dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray" />
+    <LinearLayout
+        android:id="@+id/childAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:paddingVertical="3dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:textSize="16dp"
+                android:textColor="@android:color/white"
+                android:text="Jadwal"
+                android:layout_weight="3.5"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:textSize="16dp"
+                android:textColor="@android:color/white"
+                android:text=": "/>
+            <TextView
+                android:id="@+id/jadwalAttendance"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textSize="16dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:text="HO 08:03 - 05:30 PM"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:textSize="16dp"
+                android:textColor="@android:color/white"
+                android:text="Time Off Code"
+                android:layout_weight="3.5"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:textSize="16dp"
+                android:textColor="@android:color/white"
+                android:text=": "/>
+            <TextView
+                android:id="@+id/TOCAttendance"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textSize="16dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:text="-"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:textSize="16dp"
+                android:textColor="@android:color/white"
+                android:text="Attendance Code"
+                android:layout_weight="3.5"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:textSize="16dp"
+                android:textColor="@android:color/white"
+                android:text=": "/>
+            <TextView
+                android:id="@+id/AttendanceCode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textSize="16dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:text="H"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:textSize="16dp"
+                android:textColor="@android:color/white"
+                android:text="Overtime"
+                android:layout_weight="3.5"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:textSize="16dp"
+                android:textColor="@android:color/white"
+                android:text=": "/>
+            <TextView
+                android:id="@+id/OvertimeAttendance"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textSize="16dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:text="-"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
