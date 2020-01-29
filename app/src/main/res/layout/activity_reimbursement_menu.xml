@@ -149,7 +149,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/btn_custom"
             android:textColor="@android:color/white"
-            android:text="Request Time Off"
+            android:text="Request Reimbursement"
             android:textAllCaps="false"
             android:textSize="16dp"/>
 
