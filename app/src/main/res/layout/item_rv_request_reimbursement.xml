@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:id="@+id/rootRequestReimbursementFragmentList"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/nameRequestReimbursementFragmentList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text"/>
+        <TextView
+            android:id="@+id/dateRequestReimbursementFragmentList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text"/>
+        <TextView
+            android:id="@+id/paidRequestReimbursementFragmentList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text"/>
+        <TextView
+            android:id="@+id/statusRequestReimbursementFragmentList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/ic_launcher"/>
+    </LinearLayout>
+
+
+</LinearLayout>

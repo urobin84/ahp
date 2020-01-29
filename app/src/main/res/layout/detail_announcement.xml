@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kurnia"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Diposting pasa 19 Nov 2019"
+        android:textSize="11dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="(PENTING) Challenge Sheet 2019, Deadline Jumat 20 November 2019"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget sapien sit amet augue pellentesque aliquam at a sem. Phasellus vitae auctor sem. Praesent tellus arcu, semper non tempus ac, vestibulum ut tellus. Nulla a suscipit tortor. Nullam et nisl id enim gravida porta. Quisque sit amet eros rhoncus, placerat diam sit amet, mattis dolor. In suscipit mauris at neque fringilla congue. Phasellus commodo risus nec mi laoreet, a ultricies neque dapibus. Vestibulum pretium ipsum nisl, a consequat tortor ornare ut. Suspendisse dignissim quis arcu at finibus. Nunc aliquet lectus vitae viverra condimentum. Nullam quis diam pellentesque odio interdum commodo quis in leo. Nulla neque magna, tincidunt a turpis eu, sagittis pretium nulla. Donec eu felis ut enim elementum euismod porttitor eget justo.
+
+Proin molestie elit id nulla finibus ornare. In eget dui id libero commodo vulputate et ut nulla. Sed bibendum ultrices sollicitudin. Sed elementum, lectus quis dapibus rutrum, sapien dui dictum ipsum, et ultricies turpis metus eu nisi. Phasellus eget velit faucibus, porta ipsum sed, ullamcorper leo. Vivamus cursus augue vitae arcu venenatis, at interdum tellus aliquam. Phasellus vel justo in libero volutpat faucibus nec sit amet augue. Nulla rhoncus magna non dui mattis fringilla. Sed ornare facilisis justo vel sollicitudin. Integer ultricies vulputate tincidunt. Donec bibendum quam ut ex gravida, non ornare justo gravida. Maecenas in ultricies justo, ac varius nisi.
+
+Curabitur libero libero, mollis at erat vel, convallis posuere enim. Suspendisse semper urna nulla, sit amet hendrerit ipsum efficitur sed. Vivamus arcu tortor, volutpat congue fringilla eget, ultrices et ligula. Sed eget bibendum lacus, quis fringilla est. Cras aliquet blandit erat. Nullam semper, lacus a elementum imperdiet, felis tortor placerat nulla, sit amet gravida turpis mi et tellus. Aliquam id cursus felis, non cursus elit. Donec eget est massa. Aenean pulvinar faucibus quam. Nulla lectus libero, pulvinar id elit quis, dictum tristique quam. Duis mattis sagittis ex sit amet aliquet. In sit amet ipsum lectus. Cras gravida, quam sit amet pharetra auctor, neque turpis blandit velit, vitae dictum nisl nibh non eros. Praesent pellentesque ornare tempor. Ut ullamcorper justo fringilla laoreet accumsan. Phasellus interdum diam at tortor malesuada, dignissim finibus enim rutrum."
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.mqr.loginform.ui.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/activity_main" />
+
+    <fragment
+        android:id="@+id/navigation_employee"
+        android:name="com.mqr.loginform.ui.EmployeeFragment"
+        android:label="Employee"
+        tools:layout="@layout/activity_employee" />
+
+    <fragment
+        android:id="@+id/navigation_inbox"
+        android:name="com.mqr.loginform.ui.InboxFragment"
+        android:label="Inbox"
+        tools:layout="@layout/activity_inbox" />
+
+    <fragment
+        android:id="@+id/navigation_akun"
+        android:name="com.mqr.loginform.ui.AkunFragment"
+        android:label="Akun"
+        tools:layout="@layout/activity_akun" />
+</navigation>

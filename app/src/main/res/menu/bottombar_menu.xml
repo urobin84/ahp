@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bb_menu_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+    <item
+        android:id="@+id/bb_menu_employee"
+        android:icon="@drawable/icon_employee"
+        android:title="Employee" />
+    <item
+        android:id="@+id/bb_menu_inbox"
+        android:icon="@drawable/icon_inbox"
+        android:title="Inbox" />
+    <item
+        android:id="@+id/bb_menu_account"
+        android:icon="@drawable/icon_user"
+        android:title="Account" />
+</menu>

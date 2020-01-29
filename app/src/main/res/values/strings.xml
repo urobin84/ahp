@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">AHP App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="swipe_left_for_register">Swipe Left for Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">Let\'s join us and \nBuild your relationship with others</string>
+    <string name="swipe_right_for_login">Swipe Right for Login</string>
+    <string name="register">Register</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+    <string name="search">Search</string>
+    <string name="login_btn_email">Login dengan Email</string>
+    <string name="settings_fact_type_title">Fun Fact Type</string>
+
+    <string name="login_button_text">Login</string>
+    <string name="logout_button_text">Logout</string>
+    <string name="login_unsuccessful_msg">Login unsuccessful</string>
+    <string name="welcome_message">It\'s currently %1$s.</string>
+    <string name="welcome_message_authed">Hi %1$s! Did you know that %2$s.</string>
+    <string name="login_prompt">Login to set customizations!</string>
+    <string name="login_btn">Login</string>
+    <string name="settings_btn">Settings</string>
+
+    <string name="fact_type_android">Android</string>
+    <string name="fact_type_california">California</string>
+    <string name="activity_main_choose_file">Choose file for upload</string>
+
+    <!--Shared Preference Keys -->
+    <string name="preference_fact_type_key">fact_type_pref</string>
+    <string name="NamaInMyFileActivity">Nama</string>
+    <string name="JabatanInMyFileActivity">Jabatan</string>
+    <string name="my_payslip">My Payslip</string>
+    <string name="versi">mqr-v 0.0.1</string>
+
+    <string name="loremipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus feugiat in ante metus dictum. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Etiam sit amet nisl purus in mollis nunc sed. Quis blandit turpis cursus in. Pharetra sit amet aliquam id diam. Donec massa sapien faucibus et. Pellentesque elit eget gravida cum sociis natoque. Leo in vitae turpis massa sed elementum. Volutpat ac tincidunt vitae semper quis lectus. Amet consectetur adipiscing elit pellentesque. Amet luctus venenatis lectus magna fringilla urna porttitor. Urna condimentum mattis pellentesque id nibh tortor id aliquet. Aenean pharetra magna ac placerat. Viverra nam libero justo laoreet sit amet cursus sit amet. Sem fringilla ut morbi tincidunt augue interdum velit.
+
+Enim facilisis gravida neque convallis.
+        Id velit ut tortor pretium viverra suspendisse potenti nullam ac. Porttitor leo a diam sollicitudin tempor id eu. Tellus orci ac auctor augue mauris augue neque gravida. Egestas dui id ornare arcu. Netus et malesuada fames ac turpis. Pretium viverra suspendisse potenti nullam ac tortor. Aliquet enim tortor at auctor. In fermentum et sollicitudin ac. Faucibus purus in massa tempor nec feugiat nisl pretium. Diam donec adipiscing tristique risus nec feugiat in fermentum. Amet massa vitae tortor condimentum. Viverra maecenas accumsan lacus vel. Ipsum nunc aliquet bibendum enim facilisis gravida.
+
+Egestas dui id ornare arcu odio ut sem.
+        Congue quisque egestas diam in arcu cursus euismod quis. Facilisi cras fermentum odio eu feugiat. Imperdiet proin fermentum leo vel orci. Risus quis varius quam quisque id diam vel. Ultrices tincidunt arcu non sodales. Pretium quam vulputate dignissim suspendisse in est ante. Pellentesque habitant morbi tristique senectus et. Fames ac turpis egestas integer eget aliquet nibh praesent. Sagittis orci a scelerisque purus semper eget duis. Facilisis magna etiam tempor orci eu lobortis elementum nibh. Platea dictumst quisque sagittis purus sit.</string>
+
+</resources>

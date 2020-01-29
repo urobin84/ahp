@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginStart="16dp"
+    android:layout_height="wrap_content"
+    android:paddingStart="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    >
+
+    <TextView
+        android:id="@+id/tvCaptionDetailMyInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Caprion"
+        android:textStyle="normal"
+        android:textSize="13dp"/>
+    <TextView
+        android:id="@+id/tvDescriptionDetailMyInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="14dp"
+        android:textStyle="bold"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray"
+        android:layout_height="0.3dp"/>
+
+</LinearLayout>

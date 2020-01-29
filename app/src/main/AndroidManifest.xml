@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mqr.loginform">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_ahp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+<!--        <activity android:name=".activity.SplashScreenActivity">-->
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LoginActivity" />
+<!--        <activity android:name=".MainActivity"/>-->
+        <activity android:name=".ui.InboxFragment" />
+        <activity android:name=".ui.AkunFragment" />
+        <activity android:name=".DetailActivityApproval" />
+        <activity android:name=".ActionDetailMyApproval" />
+        <activity android:name=".DetailNotification" />
+        <activity android:name=".activity.MyFilesActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.MyPayslispActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.AttendanceActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.CalendarActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.LiveAttendanceActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.ReimbursementActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.TimeOffActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.OvertimeActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.DetailMyInfoActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.DetailSettingActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.DetailAnnouncementActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.ListAnnouncementActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.RequestHighlightMenuActivity"
+            android:theme="@style/AppTheme"/>
+
+    </application>
+
+</manifest>
