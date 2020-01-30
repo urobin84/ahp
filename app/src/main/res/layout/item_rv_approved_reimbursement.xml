@@ -1,50 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal" android:layout_width="match_parent"
+    android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="16dp"
-    android:id="@+id/rootApprovedReimbursementFragmentList"
-    android:weightSum="10">
+    android:id="@+id/rootApprovedReimbursementFragmentList">
 
     <LinearLayout
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="7"
-        android:orientation="vertical">
+        android:weightSum="10"
+        android:padding="16dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:orientation="vertical">
 
 
-        <TextView
-            android:id="@+id/nameApprovedReimbursementFragmentList"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="text"/>
-        <TextView
-            android:id="@+id/dateApprovedReimbursementFragmentList"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="text"/>
-        <TextView
-            android:id="@+id/paidApprovedReimbursementFragmentList"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="text"/>
-        <TextView
-            android:id="@+id/statusApprovedReimbursementFragmentList"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="text"/>
+            <TextView
+                android:id="@+id/nameApprovedReimbursementFragmentList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="text"/>
+            <TextView
+                android:id="@+id/dateApprovedReimbursementFragmentList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="text"/>
+            <TextView
+                android:id="@+id/paidApprovedReimbursementFragmentList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="text"/>
+            <TextView
+                android:id="@+id/statusApprovedReimbursementFragmentList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="@color/colorPrimary"
+                android:text="text"/>
 
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingVertical="16dp"
+                android:paddingHorizontal="20dp"
+                android:text="Detail"
+                android:background="@drawable/bg_shadow"/>
+        </LinearLayout>
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="3"
-        android:gravity="center">
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="40dp"
-            android:src="@mipmap/ic_launcher"/>
-    </LinearLayout>
-
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/darker_gray"
+        android:layout_height="0.3dp"/>
 
 </LinearLayout>

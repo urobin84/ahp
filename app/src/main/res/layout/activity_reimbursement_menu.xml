@@ -11,7 +11,7 @@
     <LinearLayout
         android:id="@+id/datePickerMyPayslip"
         android:layout_width="match_parent"
-        android:layout_height="60"
+        android:layout_height="60dp"
         android:background="@drawable/bg_shadow"
         android:layout_marginTop="32dp"
         android:layout_marginStart="16dp"
@@ -21,26 +21,10 @@
         android:weightSum="10"
         android:orientation="horizontal">
 
-        <android.support.v4.view.ViewPager
-            android:id="@+id/container"
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/VPContainerReimbursement"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
-
-<!--        <TextView-->
-<!--            android:layout_width="0dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_weight="9.6"-->
-<!--            android:text="Januari 2020"-->
-<!--            android:layout_marginStart="16dp"-->
-<!--            android:textAlignment="textStart"-->
-<!--            android:layout_gravity="center_vertical"-->
-<!--            android:textSize="14dp"/>-->
-<!--        <ImageView-->
-<!--            android:layout_width="20dp"-->
-<!--            android:layout_height="20dp"-->
-<!--            android:layout_gravity="center_vertical"-->
-<!--            android:src="@mipmap/ic_launcher"/>-->
+            android:layout_height="wrap_content"/>
 
     </LinearLayout>
 
@@ -101,10 +85,5 @@
             android:textAlignment="center"
             android:text="You have no files. Add file by using 'Upload File' Button"/>
     </LinearLayout>
-
-
-
-
-
 
 </LinearLayout>
