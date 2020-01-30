@@ -16,7 +16,7 @@ class TaskTimeOffAdapter(val timeOffTaskList: MutableList<TimeOffTask>) :
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TaskTimeOffViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_timeoff_all, parent, false) as View
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_timeoff_task, parent, false) as View
         return TaskTimeOffViewHolder(view)
     }
 

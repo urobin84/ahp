@@ -1,9 +1,12 @@
 package com.mqr.loginform.activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -11,8 +14,10 @@ import androidx.fragment.app.FragmentPagerAdapter
 import com.mqr.loginform.R
 import com.mqr.loginform.ui.ReimbursementAFragment
 import com.mqr.loginform.ui.ReimbursementRFragment
+import kotlinx.android.synthetic.main.activity_attendance_menu.*
 import kotlinx.android.synthetic.main.activity_reimbursement_menu.*
 import kotlinx.android.synthetic.main.item_reimbursement_tipe.view.*
+import java.io.Serializable
 
 class ReimbursementActivity : AppCompatActivity()  {
 
@@ -40,6 +45,19 @@ class ReimbursementActivity : AppCompatActivity()  {
 
         // Set up the ViewPager with the sections adapter.
         VPContainerReimbursement.adapter = mSectionsPagerAdapter
+
+//        // get reference to button
+//        val btn_click_me = findViewById(R.id.btnRequestReimbursement) as Button
+//        // set on-click listener
+//        btn_click_me.setOnClickListener {
+//            // your code to perform when the user clicks on the button
+//            Toast.makeText(this@ReimbursementActivity, "Click Upload Button", Toast.LENGTH_SHORT).show()
+//        }
+
+        btnRequestReimbursement.setOnClickListener{
+            val intent = Intent(it.context, ReimbursementRequestActivity::class.java)
+            it.context.startActivity(intent)
+        }
     }
 
     override fun onSupportNavigateUp(): Boolean {

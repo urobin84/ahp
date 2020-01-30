@@ -1,5 +1,6 @@
 package com.mqr.loginform.activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.ActionBar
@@ -33,6 +34,11 @@ class TimeOffActivity: AppCompatActivity()  {
         viewpagerTimeOffADT.adapter = fragmentAdapter
 
         tabsTimeOffADT.setupWithViewPager(viewpagerTimeOffADT)
+
+        btnRequestTimeOff.setOnClickListener{
+            val intent = Intent(it.context, TimeOffRequestActivity::class.java)
+            it.context.startActivity(intent)
+        }
 
     }
 

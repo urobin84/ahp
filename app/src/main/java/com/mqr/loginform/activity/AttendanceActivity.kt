@@ -1,5 +1,6 @@
 package com.mqr.loginform.activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.os.PersistableBundle
 import androidx.appcompat.app.ActionBar
@@ -28,6 +29,11 @@ class AttendanceActivity: AppCompatActivity() {
 
         rvAttendance.layoutManager = LinearLayoutManager(this)
         rvAttendance.adapter = AttendanceAdapter(OnLeaveCalendaList)
+
+        btnRequestAttendance.setOnClickListener{
+            val intent = Intent(it.context, AttendanceRequestActivity::class.java)
+            it.context.startActivity(intent)
+        }
     }
 
     override fun onSupportNavigateUp(): Boolean {

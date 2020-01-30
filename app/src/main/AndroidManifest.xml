@@ -52,6 +52,14 @@
             android:theme="@style/AppTheme"/>
         <activity android:name=".activity.RequestHighlightMenuActivity"
             android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.ReimbursementRequestActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.OvertimeRequestActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.TimeOffRequestActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.AttendanceRequestActivity"
+            android:theme="@style/AppTheme"/>
 
     </application>
 

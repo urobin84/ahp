@@ -1,5 +1,6 @@
 package com.mqr.loginform.activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.os.PersistableBundle
 import androidx.appcompat.app.ActionBar
@@ -31,6 +32,12 @@ class CalendarActivity: AppCompatActivity() {
         viewpagerCalendar.adapter = fragmentAdapter
 
         tabsCalendar.setupWithViewPager(viewpagerCalendar)
+
+        btnRequestTimeOff.setOnClickListener{
+            val intent = Intent(it.context, TimeOffRequestActivity::class.java)
+            it.context.startActivity(intent)
+        }
+
     }
 
     override fun onSupportNavigateUp(): Boolean {
